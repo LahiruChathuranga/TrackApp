@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrackApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_direction_key">AIzaSyDB0RhYEfawCQm9fPwNaLOizpgvcOwjUno</string>
+    <string name="vehi_history">History</string>
+    <string name="vehi_livetrack">LiveTrack</string>
+</resources>

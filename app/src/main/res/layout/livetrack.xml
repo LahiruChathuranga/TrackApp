@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:text="Ride Information"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/mapbtn"
+            android:layout_width="250px"
+            android:layout_height="500px"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignTop="@+id/settingBtn"
+            android:background="@drawable/btn_drawable"
+            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+        <ImageButton
+            android:id="@+id/settingBtn"
+            android:layout_width="250px"
+            android:layout_height="500px"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn_drawable"
+            app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "8567447355",
+    "firebase_url": "https://trackapp-ed02f.firebaseio.com",
+    "project_id": "trackapp-ed02f",
+    "storage_bucket": "trackapp-ed02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8567447355:android:194dfd56adf4fdb1",
+        "android_client_info": {
+          "package_name": "com.example.lahiru.trackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8567447355-5cr5jk5itnf8f6e42emgvi7pihmrhl1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lahiru.trackapp",
+            "certificate_hash": "91c02b299ee7f26eb8f2affd5ab20fabd575585e"
+          }
+        },
+        {
+          "client_id": "8567447355-74kjc4shhetv8i4t08a5u5np1ltmsvos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-6dLlycT5o42EskZWkqoMZYq7FTj79U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8567447355-74kjc4shhetv8i4t08a5u5np1ltmsvos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
